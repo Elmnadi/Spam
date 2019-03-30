@@ -93,7 +93,6 @@ client4.on('message', message => {
 });
 
 
-
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === '!spam') {
       let count = 0;
@@ -149,9 +148,6 @@ if (message.content === '!spam') {
         }
       }
 });
-
-
-
 
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
