@@ -24,7 +24,7 @@ client.on('message', message => {
     if(message.content === '-راتب'){
         message.channel.send('#daily')
     }
-});
+}); 
 
 client.on('message', message => {
     if(message.content === '-مبلغ'){
