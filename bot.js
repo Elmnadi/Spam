@@ -43,7 +43,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-if (message.content === prefix+'spam') {
+if (message.content === prefix+'!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -94,7 +94,7 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => {
-if (message.content === prefix+'spam') {
+if (message.content === prefix+'!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
