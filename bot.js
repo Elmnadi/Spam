@@ -122,7 +122,7 @@ if (message.content === '!spam') {
 });
 
 client3.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === '!Elmnadi2005') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
